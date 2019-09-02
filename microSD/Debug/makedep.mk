@@ -12,8 +12,6 @@ lcd.c
 
 main.c
 
-minmea.c
-
 mk_build.c
 
 sdmm.c

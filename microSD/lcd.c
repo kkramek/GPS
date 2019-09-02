@@ -52,7 +52,7 @@ static struct {
     uint8_t x;
     uint8_t y;
 } cursorPosition;
-static uint8_t charMode = DOUBLESIZE;
+static uint8_t charMode = NORMALSIZE;
 #if defined GRAPHICMODE
 #include <stdlib.h>
 static uint8_t displayBuffer[DISPLAY_HEIGHT/8][DISPLAY_WIDTH];
